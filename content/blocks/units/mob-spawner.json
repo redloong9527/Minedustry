@@ -1,0 +1,103 @@
+{"type": "UnitFactory",
+
+"name": "Mob Spawner",
+"description": "Produces Minecraft Creatures",
+
+"health": 1600,
+"size": 3,
+
+"consumes": {
+  "power": 1.6
+},
+
+"plans": [
+  {
+    "unit": "zombie",
+    "time": 540,
+    "requirements": [
+      "spore-pod/10",
+      "silicon/5"
+    ]
+  },
+  {
+    "unit": "husk",
+    "time": 900,
+    "requirements": [
+      "spore-pod/10",
+      "silicon/5",
+      "sand/10"
+    ]
+  },
+  {
+    "unit": "drowned",
+    "time": 720,
+    "requirements": [
+      "spore-pod/10",
+      "silicon/10",
+      "metaglass/5"
+    ]
+  },
+  {
+    "unit": "skeleton",
+    "time": 1020,
+    "requirements": [
+      "silicon/20",
+      "copper/10"
+    ]
+  },
+  {
+    "unit": "stray",
+    "time": 1140,
+    "requirements": [
+      "copper/10",
+      "silicon/27",
+      "titanium/5"
+    ]
+  },
+  {
+    "unit": "bogged",
+    "time": 1260,
+    "requirements": [
+      "spore-pod/10",
+      "silicon/34",
+      "spore-pod/5"
+    ]
+  },
+  {
+    "unit": "parched",
+    "time": 1380,
+    "requirements": [
+      "copper/10",
+      "silicon/41",
+      "sand/10"
+    ]
+  },
+  {
+    "unit": "wither-skeleton",
+    "time": 1800,
+    "requirements": [
+      "titanium/20",
+      "silicon/50",
+      "coal/10"
+    ]
+  }
+],
+
+"requirements": [
+  "silicon/50",
+  "copper/100",
+  "lead/50",
+  "graphite/50"
+],
+
+"category": "units",
+"research": {
+  "parent": "ground-factory",
+  "requirements": [
+    "copper/200",
+    "silicon/150",
+    "spore-pod/75",
+    "graphite/75"
+  ]
+}
+}

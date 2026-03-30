@@ -1,0 +1,13 @@
+{
+  "type": "ConsumeGenerator",
+  "name": "Redstone Block",
+  "health": 750,
+  "buildTime": 140,
+  "outputsPower": true,
+  "powerProduction": 0.166666,
+  "category": "defense",
+  "hasLiquid": true,
+  "requirements": [
+    "redstone/9"
+  ]
+}

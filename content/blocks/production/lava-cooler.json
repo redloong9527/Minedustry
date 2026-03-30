@@ -1,0 +1,21 @@
+{
+  "type": "GenericCrafter",
+  "name": "Lava Cooler",
+  "description": "Cools lava quickly to make obsidian.",
+  "health": 1600,
+  "size": 2,
+  "buildTime": 500,
+  "hasItems": true,
+  "hasLiquid": true,
+  "hasPower": true,
+  "itemCapacity": 20,
+  "liquidCapacity": 30,
+  "category": "crafting",
+  "craftTime": 60,
+  "consumes": {
+    "liquids": ["minedustry-lava/0.2", "water/0.1"],
+    "power": 0.2
+    },
+  "outputItems": ["minedustry-obsidian-item/1"],
+  "requirements": ["copper/30","titanium/30","graphite/15", "minedustry-diamond/10"]
+}

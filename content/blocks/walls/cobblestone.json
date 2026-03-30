@@ -1,0 +1,10 @@
+{
+  "type": "Wall",
+  "name": "cobblestone",
+  "health": 400,
+  "buildTime": 60,
+  "category": "defense",
+  "requirements": [
+    "cobblestone-item/1"
+  ]
+}

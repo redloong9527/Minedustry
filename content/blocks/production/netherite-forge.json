@@ -1,0 +1,20 @@
+{
+  "type": "GenericCrafter",
+  "name": "Netherite Forge",
+  "description": "Melts surge alloy and scrap into a strong ingot.",
+  "health": 1800,
+  "size": 3,
+  "buildTime": 600,
+  "hasItems": true,
+  "hasPower": true,
+  "itemCapacity": 20,
+  "liquidCapacity": 30,
+  "category": "crafting",
+  "craftTime": 120,
+  "consumes": {
+    "items": ["scrap/4" ,"surge-alloy/1"],
+    "power": 2.2
+    },
+  "outputItems": ["minedustry-netherite-ingot/2"],
+  "requirements": ["titanium/30", "diamond/15", "plastanium/20", "metaglass/25"]
+}

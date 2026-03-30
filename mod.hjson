@@ -1,0 +1,7 @@
+name: "minedustry"
+displayName: "Minedustry"
+author: MaxiGHG
+description: "This Mod adds a few things from Minecraft."
+version: "0.1"
+minGameVersion: "146"
+hidden: false

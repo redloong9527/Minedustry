@@ -1,0 +1,10 @@
+{
+  "type": "Wall",
+  "name": "Obsidian",
+  "health": 1200,
+  "buildTime": 120,
+  "category": "defense",
+  "requirements": [
+    "obsidian-item/1"
+  ]
+}

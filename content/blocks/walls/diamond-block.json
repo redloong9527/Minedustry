@@ -1,0 +1,11 @@
+{
+  "type": "Wall",
+  "name": "Diamond Block",
+  "health": 900,
+  "buildTime": 140,
+  "absorbLasers": true,
+  "category": "defense",
+  "requirements": [
+    "diamond/6"
+  ]
+}

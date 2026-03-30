@@ -1,0 +1,13 @@
+{
+  "type": "Wall",
+  "name": "Netherite Block",
+  "health": 1700,
+  "buildTime": 200,
+  "conductivePower": true,
+  "conectedPower": true,
+  "hasPower": true,
+  "category": "defense",
+  "requirements": [
+    "netherite-ingot/3"
+  ]
+}

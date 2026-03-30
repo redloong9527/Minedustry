@@ -1,0 +1,21 @@
+{
+  "type": "GenericCrafter",
+  "name": "Cobblestone Melter",
+  "description": "Melts cobblestone into lava.",
+  "health": 1200,
+  "size": 2,
+  "buildTime": 300,
+  "hasItems": true,
+  "hasLiquid": true,
+  "hasPower": true,
+  "itemCapacity": 20,
+  "liquidCapacity": 30,
+  "category": "crafting",
+  "craftTime": 30,
+  "consumes": {
+    "items": ["minedustry-cobblestone-item/1"],
+    "power": 1.2
+    },
+  "outputLiquids": ["minedustry-lava/0.133333333333"],
+  "requirements": ["copper/20","lead/10","graphite/20","silicon/10"]
+}

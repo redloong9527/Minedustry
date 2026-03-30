@@ -1,0 +1,11 @@
+{
+    "type": "Item",
+    "name": "Netherite Ingot",
+    "description": "Very hard metal alloy.",
+    "explosiveness": 0,
+    "flammability": 0,
+    "radioactivity": 0,
+    "charge": 0,
+    "hardness": 0,
+    "lowPriority": true
+}

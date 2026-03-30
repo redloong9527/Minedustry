@@ -1,0 +1,11 @@
+{
+    "type": "Item",
+    "name": "Diamond",
+    "description": "Shiny, hard rock. Very durable.",
+    "explosiveness": 0,
+    "flammability": 0,
+    "radioactivity": 0,
+    "charge": 0,
+    "hardness": 0,
+    "lowPriority": true
+}

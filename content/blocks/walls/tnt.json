@@ -1,0 +1,14 @@
+{
+  "type": "Wall",
+  "name": "TNT",
+  "health": 150,
+  "buildTime": 1,
+  "baseExplosiveness": 22,
+  "flammabiltyScale": 10,
+  "crushFragile": true,
+  "category": "defense",
+  "requirements": [
+    "sand/8",
+    "blast-compound/10"
+  ]
+}

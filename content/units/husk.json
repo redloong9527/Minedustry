@@ -1,0 +1,45 @@
+
+{
+  "type": "mech",
+  "description": "Minecraft Husk",
+  "name": "Husk",
+  "speed": 0.8,
+  "hitSize": 7,
+  "health": 400,
+  "rotateSpeed": 7,
+  "drownTimeMultiplier": 6,
+  "immunities": ["burning"],
+  "weapons":[
+    {
+    "name": "husk-weapon",
+    "x": 3,
+    "y": 2,
+    "shootY": 0,
+    "targetAir": true,
+    "targetGround": true,
+    "rotate": false,
+    "reload": 24,
+    "shootCone": 4,
+    "shootSound": "shoot",
+    "recoil": -2,
+    "top": true,
+    "mirror": true,
+    "bullet": {
+      "type": "BasicBulletType",
+      "speed": 10,
+      "damage": 22,
+      "lifetime": 4,
+      "width": 0,
+      "height": 0,
+      "knockback": 0.4,
+      "impact": true,
+      "hitEffect": "none",
+      "despawnEffect": "none",
+      "shootEffect": "none",
+      "smokeEffect": "none",
+      "status": "sapped",
+      "statusDuration": 300
+      }
+    }
+  ]
+  }
