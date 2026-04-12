@@ -1,10 +1,9 @@
-
 {
   "type": "flying",
   "description": "Minecraft Wither",
   "name": "Wither",
   "speed": 1,
-  "hitSize": 12,
+  "hitSize": 20,
   "health": 12000,
   "rotateSpeed": 4,
   "immunities": ["sapped", "corroded"],
@@ -15,7 +14,7 @@
 
     {
     "name": "wither-side-skulls",
-    "x": 5,
+    "x": 10,
     "y": 0,
     "targetAir": true,
     "targetGround": true,
@@ -33,8 +32,8 @@
       "speed": 3.5,
       "damage": 110,
       "lifetime": 72,
-      "width": 3,
-      "height": 3,
+      "width": 6,
+      "height": 6,
       "shrinkY": 0,
       "shootEffect": "none",
       "status": "sapped",
@@ -64,8 +63,8 @@
       "splashDamage": 250,
       "splashDamageRadius": 20,
       "lifetime": 90,
-      "width": 4,
-      "height": 4,
+      "width": 8,
+      "height": 8,
       "shrinkY": 0,
       "shootEffect": "none",
       "status": "corroded",
