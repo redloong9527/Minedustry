@@ -1,0 +1,47 @@
+{"type": "UnitFactory",
+
+"name": "Boss Spawner",
+"description": "Produces Minecraft boss creatures.",
+
+"health": 5400,
+"size": 5,
+
+"consumes": {
+  "power": 2.5
+},
+
+"plans": [
+  {
+    "unit": "wither",
+    "time": 8000,
+    "requirements": [
+      "thorium/600",
+      "coal/400",
+      "minedustry-obsidian-item/240",
+      "minedustry-diamond/60",
+      "silicon/200",
+      "minedustry-calcite/350"
+    ]
+  }
+],
+
+"requirements": [
+  "silicon/750",
+  "spore-pod/750",
+  "copper/1500",
+  "lead/1000",
+  "minedustry-obsidian-item/300",
+  "minedustry-diamond/100"
+],
+
+"category": "units",
+"research": {
+  "parent": "ground-factory",
+  "requirements": [
+    "copper/200",
+    "silicon/150",
+    "spore-pod/75",
+    "graphite/75"
+  ]
+}
+}

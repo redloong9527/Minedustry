@@ -1,0 +1,47 @@
+
+{
+  "type": "mech",
+  "description": "Minecraft Large Magmacube, melee unit, spawns 3-5 Magmacubes on death",
+  "name": "Magmacube (Large)",
+  "speed": 0.7,
+  "hitSize": 20,
+  "health": 1200,
+  "rotateSpeed": 6,
+  "immunities": ["burning","melting"],
+  "weapons":[
+    {
+    "name": "magmacube-large-weapon",
+    "x": 0,
+    "y": 0,
+    "shootY": 0,
+    "shootSound": "none",
+    "mirror": false,
+    "recoil": 0,
+    "reload": 20,
+    "bullet": {
+      "type": "BasicBulletType",
+      "speed": 6,
+      "damage": 60,
+      "lifetime": 7,
+      "width": 0,
+      "height": 0,
+      "hitEffect": "none",
+      "despawnEffect": "none",
+      "shootEffect": "none",
+      "smokeEffect": "none",
+      "knockback": 5,
+      "status": "burning",
+      "statusDuration": 200
+    }
+      }
+  ],
+  "abilities":[
+    {
+     "type": "SpawnDeathAbility",
+     "spread": 10,
+     "randAmount": 2,
+     "amount": 3,
+     "unit": "minedustry-magmacube-middle"
+    }
+  ]
+}

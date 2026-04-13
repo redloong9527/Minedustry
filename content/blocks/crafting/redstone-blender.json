@@ -1,0 +1,50 @@
+{
+  "type": "GenericCrafter",
+  "name": "Redstone Blender",
+  "description": "Mixes thorium and surge alloy into redstone dust.",
+  "health": 1700,
+  "size": 3,
+  "buildTime": 550,
+  "hasItems": true,
+  "hasPower": true,
+  "itemCapacity": 20,
+  "liquidCapacity": 30,
+  "category": "crafting",
+  "craftTime": 30,
+  "consumes": {
+    "items": ["thorium/2" ,"surge-alloy/1"],
+    "power": 1
+    },
+  "outputItems": ["minedustry-redstone/2"],
+  "requirements": ["titanium/35", "diamond/10", "plastanium/20", "thorium/30"],
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "drawRegion",
+        "suffix": "-bottom",
+        "layer": 1
+      },
+      {
+        "type": "DrawRegion",
+        "suffix": "-rotator",
+        "spinSprite": true,
+        "rotateSpeed": 3,
+        "warmup": true,
+        "layer": 2
+      },
+      {
+        "type": "DrawRegion",
+        "suffix": "-rotator",
+        "spinSprite": true,
+        "rotateSpeed": -3,
+        "warmup": true,
+        "layer": 3
+      },
+      {
+        "type": "DrawDefault",
+        "layer": 4
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "type": "naval",
+  "description": "Minecraft Axolotl, melee unit, heals allies",
+  "name": "Axolotl",
+  "outlines": false,
+  "speed": 1.2,
+  "hitSize": 7,
+  "health": 600,
+  "rotateSpeed": 8,
+  "immunities": [],
+  "weapons":[
+    {
+    "name": "axolotl-attack",
+    "x": 0,
+    "y": 0,
+    "shootY": 0,
+    "mirror": false,
+    "shootSound": "none",
+    "recoil": 0,
+    "reload": 30,
+    "bullet": {
+      "type": "BasicBulletType",
+      "speed": 5,
+      "damage": 30,
+      "lifetime": 6,
+      "width": 0,
+      "height": 0,
+      "hitEffect": "none",
+      "despawnEffect": "none",
+      "shootEffect": "none",
+      "smokeEffect": "none",
+      "hitSound": "none",
+      "despawnSound": "none"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "type": "StatusFieldAbility",
+      "effect": "minedustry-regeneration",
+      "duration": 500,
+      "reload": 120,
+      "range": 35,
+      "color": "9E1B87"
+    }
+  ]
+}

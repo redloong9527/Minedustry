@@ -1,0 +1,35 @@
+
+{
+  "type": "mech",
+  "description": "Minecraft Small Slime, melee unit, cant split into more slimes",
+  "name": "Slime (Small)",
+  "speed": 0.8,
+  "hitSize": 4,
+  "health": 80,
+  "rotateSpeed": 10,
+  "immunities": [],
+  "weapons":[
+    {
+    "name": "slime-small-weapon",
+    "x": 0,
+    "y": 0,
+    "shootY": 0,
+    "shootSound": "none",
+    "mirror": false,
+    "recoil": 0,
+    "reload": 15,
+    "bullet": {
+      "type": "BasicBulletType",
+      "speed": 6,
+      "damage": 10,
+      "lifetime": 5,
+      "width": 0,
+      "height": 0,
+      "hitEffect": "none",
+      "despawnEffect": "none",
+      "shootEffect": "none",
+      "smokeEffect": "none"
+    }
+      }
+  ]
+}

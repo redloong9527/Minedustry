@@ -1,7 +1,7 @@
 {
   "type": "Wall",
   "name": "TNT",
-  "health": 150,
+  "health": 50,
   "buildTime": 1,
   "baseExplosiveness": 22,
   "flammabiltyScale": 10,

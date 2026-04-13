@@ -1,0 +1,47 @@
+
+{
+  "type": "mech",
+  "description": "Minecraft Magmacube, melee unit, spawns 3-5 Small Magmacubes on death",
+  "name": "Magmacube",
+  "speed": 0.75,
+  "hitSize": 10,
+  "health": 300,
+  "rotateSpeed": 8,
+  "immunities": ["burning","melting"],
+  "weapons":[
+    {
+    "name": "magmacube-middle-weapon",
+    "x": 0,
+    "y": 0,
+    "shootY": 0,
+    "shootSound": "none",
+    "mirror": false,
+    "recoil": 0,
+    "reload": 20,
+    "bullet": {
+      "type": "BasicBulletType",
+      "speed": 6,
+      "damage": 40,
+      "lifetime": 6,
+      "width": 0,
+      "height": 0,
+      "hitEffect": "none",
+      "despawnEffect": "none",
+      "shootEffect": "none",
+      "smokeEffect": "none",
+      "knockback": 3,
+      "status": "burning",
+      "statusDuration": 200
+    }
+      }
+  ],
+  "abilities":[
+    {
+     "type": "SpawnDeathAbility",
+     "spread": 10,
+     "randAmount": 2,
+     "amount": 3,
+     "unit": "minedustry-magmacube-small"
+    }
+  ]
+}

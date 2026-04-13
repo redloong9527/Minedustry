@@ -1,0 +1,23 @@
+
+{
+  "type": "mech",
+  "description": "Minecraft Creeper, explodes when near enemies",
+  "name": "Creeper",
+  "speed": 1.4,
+  "hitSize": 7,
+  "health": 400,
+  "rotateSpeed": 7,
+  "immunities": ["slow"],
+  "weapons":[
+      {
+    "name": "explosion",
+    "bullet": {
+      "type": "ExplosionBulletType",
+      "knockback": 6,
+      "splashDamage": 200,
+      "splashDamageRadius": 60,
+      "buildingDamage": 0.5
+        }
+    }
+  ]
+}

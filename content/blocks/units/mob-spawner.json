@@ -1,7 +1,7 @@
 {"type": "UnitFactory",
 
 "name": "Mob Spawner",
-"description": "Produces Minecraft Creatures",
+"description": "Produces Minecraft creatures.",
 
 "health": 1600,
 "size": 3,
@@ -16,7 +16,8 @@
     "time": 540,
     "requirements": [
       "spore-pod/10",
-      "silicon/5"
+      "graphite/5",
+      "minedustry-calcite/5"
     ]
   },
   {
@@ -24,7 +25,8 @@
     "time": 900,
     "requirements": [
       "spore-pod/10",
-      "silicon/5",
+      "graphite/5",
+      "minedustry-calcite/5",
       "sand/10"
     ]
   },
@@ -33,7 +35,8 @@
     "time": 720,
     "requirements": [
       "spore-pod/10",
-      "silicon/10",
+      "graphite/10",
+      "minedustry-calcite/5",
       "metaglass/5"
     ]
   },
@@ -41,7 +44,7 @@
     "unit": "skeleton",
     "time": 1020,
     "requirements": [
-      "silicon/20",
+      "minedustry-calcite/5",
       "copper/10"
     ]
   },
@@ -50,7 +53,7 @@
     "time": 1140,
     "requirements": [
       "copper/10",
-      "silicon/27",
+      "minedustry-calcite/27",
       "titanium/5"
     ]
   },
@@ -59,7 +62,7 @@
     "time": 1260,
     "requirements": [
       "spore-pod/10",
-      "silicon/34",
+      "minedustry-calcite/34",
       "spore-pod/5"
     ]
   },
@@ -68,36 +71,142 @@
     "time": 1380,
     "requirements": [
       "copper/10",
-      "silicon/41",
+      "minedustry-calcite/41",
       "sand/10"
     ]
   },
   {
     "unit": "wither-skeleton",
+    "time": 2100,
+    "requirements": [
+      "titanium/30",
+      "minedustry-calcite/60",
+      "coal/20"
+    ]
+  },
+  {
+    "unit": "axolotl",
     "time": 1800,
     "requirements": [
       "titanium/20",
-      "silicon/50",
-      "coal/10"
+      "minedustry-calcite/20",
+      "graphite/20",
+      "spore-pod/20"
+    ]
+  },
+  {
+    "unit": "bee",
+    "time": 480,
+    "requirements": [
+      "copper/20",
+      "minedustry-calcite/10",
+      "graphite/15",
+      "spore-pod/10"
+    ]
+  },
+  {
+    "unit": "blaze",
+    "time": 2400,
+    "requirements": [
+      "titanium/80",
+      "silicon/70",
+      "pyratite/30"
+    ]
+  },
+  {
+    "unit": "breeze",
+    "time": 1000,
+    "requirements": [
+      "metaglass/15",
+      "silicon/20",
+      "sand/10"
+    ]
+  },
+  {
+    "unit": "cave-spider",
+    "time": 540,
+    "requirements": [
+      "copper/30",
+      "minedustry-calcite/20",
+      "graphite/40",
+      "spore-pod/15"
+    ]
+  },
+  {
+    "unit": "spider",
+    "time": 540,
+    "requirements": [
+      "titanium/20",
+      "minedustry-calcite/20",
+      "graphite/20"
+    ]
+  },
+  {
+    "unit": "creaking",
+    "time": 1800,
+    "requirements": [
+      "titanium/70",
+      "graphite/30",
+      "spore-pod/30"
+    ]
+  },
+  {
+    "unit": "creeper",
+    "time": 500,
+    "requirements": [
+      "blast-compound/30",
+      "minedustry-calcite/20",
+      "minedustry-calcite/20",
+      "plastanium/20"
+    ]
+  },
+  {
+    "unit": "dolphin",
+    "time": 900,
+    "requirements": [
+      "metaglass/25",
+      "minedustry-calcite/15",
+      "graphite/15",
+      "lead/15"
+    ]
+  },
+  {
+    "unit": "slime-large",
+    "time": 2400,
+    "requirements": [
+      "copper/50",
+      "graphite/40",
+      "spore-pod/30"
+    ]
+  },
+  {
+    "unit": "magmacube-large",
+    "time": 3600,
+    "requirements": [
+      "titanium/30",
+      "graphite/30",
+      "minedustry-calcite/10",
+      "pyratite/20"
     ]
   }
 ],
 
 "requirements": [
-  "silicon/50",
-  "copper/100",
-  "lead/50",
-  "graphite/50"
+  "silicon/90",
+  "lead/80",
+  "minedustry-cobblestone-item/40",
+  "graphite/70"
 ],
 
 "category": "units",
 "research": {
   "parent": "ground-factory",
   "requirements": [
-    "copper/200",
-    "silicon/150",
-    "spore-pod/75",
-    "graphite/75"
+    "copper/480",
+    "silicon/320",
+    "lead/280",
+    "spore-pod/300",
+    "graphite/350"
   ]
 }
 }

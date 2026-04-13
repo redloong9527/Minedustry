@@ -1,0 +1,9 @@
+{
+    "type": "Item",
+    "name": "Calcite",
+    "description": "Soft mineral, very abundant in the ground of serpulo, required for calcium based production",
+    "explosiveness": 0,
+    "flammability": 0,
+    "radioactivity": 0,
+    "charge": 0
+}

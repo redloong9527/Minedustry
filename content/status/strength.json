@@ -1,0 +1,8 @@
+{
+    "type": "StatusEffect",
+    "name": "Strength",
+    "description": "Increases attack damage.",
+    "affinities": [],
+    "opposites": ["minedustry-weakness"],
+    "damageMultiplier": 1.5
+}

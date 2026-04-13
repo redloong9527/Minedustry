@@ -1,0 +1,43 @@
+{
+  "type": "GenericCrafter",
+  "name": "Diamond Press",
+  "description": "Presses coal under extreme pressure into diamonds, requires water as coolant.",
+  "health": 1400,
+  "size": 3,
+  "buildTime": 400,
+  "hasItems": true,
+  "hasLiquid": true,
+  "hasPower": true,
+  "itemCapacity": 60,
+  "liquidCapacity": 30,
+  "category": "crafting",
+  "craftTime": 400,
+  "consumes": {
+    "items": ["coal/20"],
+    "liquids": ["water/0.3"],
+    "power": 1.6
+    },
+  "outputItems": ["minedustry-diamond/1"],
+  "requirements": ["titanium/50", "graphite/30", "plastanium/15"],
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "drawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawPistons",
+        "sides": 8,
+        "sinMag": 6,
+        "sinScl": 31.5,
+        "lenOffset": 5,
+        "horiOffset": 0,
+        "warmup": true
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  }
+}

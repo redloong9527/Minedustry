@@ -1,0 +1,45 @@
+
+{
+  "type": "mech",
+  "description": "Minecraft Slime, melee unit, spawns 3-5 Small Slimes on death",
+  "name": "Slime",
+  "speed": 0.75,
+  "hitSize": 10,
+  "health": 200,
+  "rotateSpeed": 8,
+  "immunities": [],
+  "weapons":[
+    {
+    "name": "slime-middle-weapon",
+    "x": 0,
+    "y": 0,
+    "shootY": 0,
+    "shootSound": "none",
+    "mirror": false,
+    "recoil": 0,
+    "reload": 15,
+    "bullet": {
+      "type": "BasicBulletType",
+      "speed": 6,
+      "damage": 20,
+      "lifetime": 6,
+      "width": 0,
+      "height": 0,
+      "hitEffect": "none",
+      "despawnEffect": "none",
+      "shootEffect": "none",
+      "smokeEffect": "none",
+      "knockback": 3
+    }
+      }
+  ],
+  "abilities":[
+    {
+     "type": "SpawnDeathAbility",
+     "spread": 10,
+     "randAmount": 2,
+     "amount": 3,
+     "unit": "minedustry-slime-small"
+    }
+  ]
+}

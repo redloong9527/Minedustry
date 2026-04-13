@@ -1,7 +1,7 @@
 
 {
   "type": "mech",
-  "description": "Minecraft Stray",
+  "description": "Minecraft Stray, ranged unit, freezes enemies",
   "name": "Stray",
   "speed": 0.85,
   "hitSize": 7,

@@ -1,0 +1,47 @@
+
+{
+  "type": "naval",
+  "description": "Minecraft Dolphin, melee unit, speeds up allies",
+  "name": "Dolphin",
+  "outlines": false,
+  "speed": 1.2,
+  "hitSize": 9,
+  "health": 350,
+  "rotateSpeed": 8,
+  "immunities": [],
+  "weapons":[
+      {
+    "name": "dolphin-attack",
+    "x": 0,
+    "y": 0,
+    "shootY": 0,
+    "mirror": false,
+    "recoil": 0,
+    "reload": 30,
+    "bullet": {
+      "type": "BasicBulletType",
+      "speed": 6,
+      "damage": 30,
+      "lifetime": 5,
+      "width": 0,
+      "height": 0,
+      "hitEffect": "none",
+      "despawnEffect": "none",
+      "shootEffect": "none",
+      "smokeEffect": "none",
+      "hitSound": "none",
+      "despawnSound": "none"
+    }
+      }
+  ],
+  "abilities":[
+    {
+        "type": "StatusFieldAbility",
+        "effect": "minedustry-speed",
+        "duration": 1000,
+        "range": 80,
+        "color": "27DDF5",
+        "reload": 300
+    }
+  ]
+}

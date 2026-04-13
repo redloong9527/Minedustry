@@ -1,0 +1,37 @@
+
+{
+  "type": "mech",
+  "description": "Minecraft Creaking, melee unit, very tanky",
+  "name": "Creaking",
+  "speed": 0.6,
+  "hitSize": 10,
+  "health": 2400,
+  "rotateSpeed": 7,
+  "immunities": [],
+  "weapons":[
+      {
+    "name": "creaking-attack",
+    "x": 0,
+    "y": 0,
+    "shootY": 0,
+    "mirror": false,
+    "recoil": 0,
+    "reload": 60,
+    "bullet": {
+      "type": "BasicBulletType",
+      "speed": 6,
+      "damage": 40,
+      "lifetime": 5,
+      "width": 0,
+      "height": 0,
+      "knockback": 0,
+      "hitEffect": "none",
+      "despawnEffect": "none",
+      "shootEffect": "none",
+      "smokeEffect": "none",
+      "hitSound": "none",
+      "despawnSound": "none"
+    }
+      }
+  ]
+}

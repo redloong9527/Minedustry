@@ -1,13 +1,13 @@
 {
   "type": "mech",
-  "description": "Minecraft Wither Skeleton",
+  "description": "Minecraft Wither Skeleton, melee unit, gives enemies the Wither effect",
   "name": "Wither Skeleton",
   "speed": 0.8,
   "hitSize": 7,
   "health": 400,
   "rotateSpeed": 7,
   "canDrown": false,
-  "immunities": ["corroded", "sapped"],
+  "immunities": ["minedustry-wither-effect", "sapped"],
   "weapons":[
     {
     "name": "wither-skeleton-weapon-L",
@@ -60,7 +60,7 @@
       "despawnEffect": "none",
       "shootEffect": "none",
       "smokeEffect": "none",
-      "status": "corroded",
+      "status": "minedustry-wither-effect",
       "statusDuration": 500
       }
     }

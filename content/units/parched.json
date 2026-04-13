@@ -1,6 +1,6 @@
 {
   "type": "mech",
-  "description": "Minecraft Parched",
+  "description": "Minecraft Parched, ranged unit, gives enemies poison",
   "name": "Parched",
   "speed": 0.85,
   "hitSize": 7,
@@ -61,7 +61,7 @@
       "shootEffect": "none",
       "smokeEffect": "none",
       "homing": 0.1,
-      "status": "sapped",
+      "status": "minedustry-weakness",
       "statusDuration": 600
      }
     }
