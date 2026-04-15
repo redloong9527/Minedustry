@@ -17,19 +17,17 @@
     "power": 1.2
     },
   "outputLiquids": ["minedustry-lava/0.133333333333"],
-  "requirements": ["copper/30","lead/10","graphite/25","silicon/15"],
+  "requirements": ["copper/30","lead/25","graphite/25","silicon/20"],
   "drawer": {
     "type": "DrawMulti",
     "drawers": [
       {
         "type": "drawRegion",
-        "suffix": "-bottom",
-        "layer": 1
+        "suffix": "-bottom"
       },
       {
         "type": "DrawLiquidTile",
         "drawLiquid": "minedustry-lava",
-        "layer": 2,
         "padLeft": 2,
         "padRight": 2,
         "padTop": 2,
@@ -41,13 +39,15 @@
         "suffix": "-rotator",
         "spinSprite": true,
         "rotateSpeed": 0.4,
-        "warmup": true,
-        "layer": 3
+        "warmup": true
       },
       {
-        "type": "DrawDefault",
-        "layer": 4
+        "type": "DrawDefault"
       }
     ]
+  },
+  "research": {
+    "parent":"silicon-smelter",
+    "requirements": ["copper/300", "graphite/180", "silicon/140", "lead/240"]
   }
 }

@@ -17,8 +17,29 @@
     "power": 0.25
     },
   "outputItems": ["minedustry-obsidian-item/1"],
-  "requirements": ["copper/30","titanium/30","graphite/15", "minedustry-diamond/10"],
+  "requirements": ["copper/45", "titanium/30","graphite/25", "plastanium/15"],
   "craftEffect": "steam",
   "updateEffect": "none",
-  "updateEffectChance": 0.05
+  "updateEffectChance": 0.05,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "drawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "minedustry-lava",
+        "alpha": 1
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  },
+  "research": {
+    "parent":"plastanium-compressor",
+    "requirements": ["titanium/450", "silicon/240", "plastanium/240", "graphite/350"]
+  }
 }

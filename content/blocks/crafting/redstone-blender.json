@@ -16,35 +16,35 @@
     "power": 1
     },
   "outputItems": ["minedustry-redstone/2"],
-  "requirements": ["titanium/35", "diamond/10", "plastanium/20", "thorium/30"],
+  "requirements": ["titanium/50", "diamond/10", "plastanium/30", "thorium/40"],
   "drawer": {
     "type": "DrawMulti",
     "drawers": [
       {
         "type": "drawRegion",
-        "suffix": "-bottom",
-        "layer": 1
+        "suffix": "-bottom"
       },
       {
         "type": "DrawRegion",
         "suffix": "-rotator",
         "spinSprite": true,
         "rotateSpeed": 3,
-        "warmup": true,
-        "layer": 2
+        "warmup": true
       },
       {
         "type": "DrawRegion",
         "suffix": "-rotator",
         "spinSprite": true,
         "rotateSpeed": -3,
-        "warmup": true,
-        "layer": 3
+        "warmup": true
       },
       {
-        "type": "DrawDefault",
-        "layer": 4
+        "type": "DrawDefault"
       }
     ]
+  },
+  "research": {
+    "parent":"seperator",
+    "requirements": ["diamond/30", "thorium/600", "minedustry-obsidian-item/400", "plastanium/500"]
   }
 }

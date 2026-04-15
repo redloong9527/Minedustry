@@ -18,7 +18,7 @@
     "power": 1.6
     },
   "outputItems": ["minedustry-diamond/1"],
-  "requirements": ["titanium/50", "graphite/30", "plastanium/15"],
+  "requirements": ["titanium/120", "graphite/80", "plastanium/60"],
   "drawer": {
     "type": "DrawMulti",
     "drawers": [
@@ -39,5 +39,9 @@
         "type": "DrawDefault"
       }
     ]
+  },
+  "research": {
+    "parent":"silicon-crucible",
+    "requirements": ["plastanium/680", "titanium/750", "graphite/1500", "coal/2300"]
   }
 }

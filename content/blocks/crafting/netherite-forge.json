@@ -16,22 +16,24 @@
     "power": 2.2
     },
   "outputItems": ["minedustry-netherite-ingot/2"],
-  "requirements": ["thorium/70", "diamond/25", "plastanium/40", "metaglass/30", "titanium/120"],
+  "requirements": ["thorium/70", "diamond/20", "plastanium/40", "metaglass/30", "titanium/120"],
 
   "drawer": {
     "type": "DrawMulti",
     "drawers": [
       {
-        "type": "DrawDefault",
-        "layer": 0
+        "type": "DrawDefault"
       },
       {
         "type": "DrawCrucibleFlame",
         "warmup": true,
         "flameColor": "2ee0f2",
-        "midColor": "94fff1",
-        "layer": 1
+        "midColor": "94fff1"
       }
     ]
+  },
+  "research": {
+    "parent":"surge-smelter",
+    "requirements": ["surge-alloy/380", "thorium/1700", "plastanium/1500", "metaglass/2600", "diamond/60"]
   }
 }

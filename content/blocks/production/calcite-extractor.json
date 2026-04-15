@@ -24,22 +24,22 @@
     "drawers": [
       {
         "type": "drawRegion",
-        "suffix": "-bottom",
-        "layer": 0
+        "suffix": "-bottom"
       },
       {
         "type": "DrawRegion",
         "suffix": "-rotator",
         "spinSprite": true,
         "rotateSpeed": 3,
-        "warmup": true,
-        "layer": 5
+        "warmup": true
       },
       {
-        "type": "drawRegion",
-        "suffix": "-top",
-        "layer": 10
+        "type": "DrawDefault"
       }
     ]
+  },
+  "research": {
+    "parent":"pneumatic-drill",
+    "requirements": ["silicon/150", "copper/300", "lead/250"]
   }
 }
