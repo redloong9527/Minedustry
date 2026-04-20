@@ -1,0 +1,10 @@
+{
+    "type": "Item",
+    "name": "火药",
+    "description": "制作TNT的原材料。",
+    "explosiveness": 1,
+    "flammability": 1,
+    "radioactivity": 0,
+    "charge": 0,
+    "hardness": 0
+}
