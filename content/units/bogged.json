@@ -1,14 +1,14 @@
 
 {
   "type": "mech",
-  "description": "Minecraft Bogged",
+  "description": "Minecraft Bogged, ranged unit, poisons enemies",
   "name": "Bogged",
   "speed": 0.85,
   "hitSize": 7,
   "health": 400,
   "rotateSpeed": 7,
   "canDrown": false,
-  "immunities": ["corroded"],
+  "immunities": ["minedustry-poison"],
   "weapons":[
     {
     "name": "bogged-weapon-R",
@@ -62,7 +62,7 @@
       "shootEffect": "none",
       "smokeEffect": "none",
       "homing": 0.1,
-      "status": "corroded",
+      "status": "minedustry-poison",
       "statusDuration": 900
      }
     }

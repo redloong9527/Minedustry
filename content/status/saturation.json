@@ -1,0 +1,11 @@
+{
+    "type": "StatusEffect",
+    "name": "Saturation",
+    "description": "Gives units more energy, making them more efficient and stronger.",
+    "affinities": [],
+    "opposites": ["minedustry-hunger"],
+    "damageMultiplier": 1.1,
+    "speedMultiplier": 1.1,
+    "reloadMultiplier": 1.1,
+    "damage": -0.05
+}

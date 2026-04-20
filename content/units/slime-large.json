@@ -1,0 +1,45 @@
+
+{
+  "type": "mech",
+  "description": "Minecraft Large Slime, melee unit, spawns 3-5 Slimes on death",
+  "name": "Slime (Large)",
+  "speed": 0.7,
+  "hitSize": 20,
+  "health": 800,
+  "rotateSpeed": 6,
+  "immunities": [],
+  "weapons":[
+    {
+    "name": "slime-large-weapon",
+    "x": 0,
+    "y": 0,
+    "shootY": 0,
+    "shootSound": "none",
+    "mirror": false,
+    "recoil": 0,
+    "reload": 15,
+    "bullet": {
+      "type": "BasicBulletType",
+      "speed": 6,
+      "damage": 30,
+      "lifetime": 7,
+      "width": 0,
+      "height": 0,
+      "hitEffect": "none",
+      "despawnEffect": "none",
+      "shootEffect": "none",
+      "smokeEffect": "none",
+      "knockback": 5
+    }
+      }
+  ],
+  "abilities":[
+    {
+     "type": "SpawnDeathAbility",
+     "spread": 10,
+     "randAmount": 2,
+     "amount": 3,
+     "unit": "minedustry-slime-middle"
+    }
+  ]
+}

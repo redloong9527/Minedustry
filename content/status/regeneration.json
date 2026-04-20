@@ -1,6 +1,7 @@
 {
     "type": "StatusEffect",
     "name": "Regeneration",
-    "description": "Heals affected units, is relatively weak.",
-    "damage": -0.2
+    "description": "Heals units over time, is relatively weak.",
+    "damage": -0.2,
+    "opposites":["minedustry-poison", "minedustry-wither-effect", "corroded"]
 }

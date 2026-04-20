@@ -1,8 +1,8 @@
 {
     "type": "StatusEffect",
     "name": "Weakness",
-    "description": "Makes units deal way less damage.",
+    "description": "Decreases attack damage.",
     "affinities": [],
-    "opposites": [],
-    "damageMultiplier": 0.5
+    "opposites": ["minedustry-strength"],
+    "damageMultiplier": 0.6
 }

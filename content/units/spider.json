@@ -1,0 +1,56 @@
+
+{
+  "type": "legs",
+  "description": "Minecraft Spider, melee unit, can walk over most terrain",
+  "name": "Spider",
+  "outlines": false,
+  "speed": 1.2,
+  "hitSize": 8,
+  "health": 500,
+  "rotateSpeed": 7,
+  "immunities": ["minedustry-poison"],
+  "weapons":[
+      {
+    "name": "spider-attack",
+    "x": 0,
+    "y": 0,
+    "shootY": 0,
+    "mirror": false,
+    "recoil": 0,
+    "reload": 30,
+    "bullet": {
+      "type": "BasicBulletType",
+      "speed": 6,
+      "damage": 60,
+      "lifetime": 7,
+      "width": 0,
+      "height": 0,
+      "knockback": 2,
+      "hitEffect": "none",
+      "despawnEffect": "none",
+      "shootEffect": "none",
+      "smokeEffect": "none",
+      "hitSound": "none",
+      "despawnSound": "none"
+    }
+      }
+  ],
+  "legContinuousMove": true,
+  "lockLegBase": true,
+  "legStraightness": 0.2,
+  "baseLegStraightness": 0,
+  "legMinLength": 0,
+  "legMaxLength": 0.8,
+  "legStraightLength": 0,
+  "legLengthScl": 0.8,
+  "legPairOffset": 0.5,
+  "legExtension": 0,
+  "legMoveSpace": 1,
+  "legBaseOffset": 2.8,
+  "legForwardScl": 1,
+  "legSpeed": 0.05,
+  "legLength": 8,
+  "legGroupSize": 4,
+  "legCount": 8,
+  "drawOutline": false
+}

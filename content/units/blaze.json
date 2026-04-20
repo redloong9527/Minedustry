@@ -1,0 +1,72 @@
+
+{
+  "type": "flying",
+  "description": "Minecraft Blaze, ranged unit, can deal melee damage, sets enemies on fire",
+  "name": "Blaze",
+  "outlines": false,
+  "speed": 2,
+  "hitSize": 8,
+  "health": 1000,
+  "rotateSpeed": 8,
+  "immunities": ["burning"],
+  "flying": true,
+  "engineOffset": 0.5,
+  "engineSize": 2.9,
+  "engineLayer": 0,
+  "engineColor": "943D00",
+  "weapons":[
+    {
+    "name": "blaze-melee",
+    "x": 0,
+    "y": 0,
+    "shootY": 0,
+    "mirror": false,
+    "shootSound": "none",
+    "recoil": 0,
+    "reload": 40,
+    "bullet": {
+      "type": "BasicBulletType",
+      "speed": 3,
+      "damage": 30,
+      "lifetime": 10,
+      "width": 0,
+      "height": 0,
+      "hitEffect": "none",
+      "despawnEffect": "none",
+      "shootEffect": "none",
+      "smokeEffect": "none",
+      "hitSound": "none",
+      "despawnSound": "none"
+    }
+      },
+      {
+    "name": "blaze-fireball",
+    "x": 0,
+    "y": 0,
+    "shootY": 0,
+    "mirror": false,
+    "recoil": 0,
+    "reload": 150,
+    "shootSound": "shootFlame",
+      "shoot": {
+      "shots": 5,
+      "shotDelay": 15
+        },
+    "bullet": {
+      "type": "BasicBulletType",
+      "speed": 3,
+      "damage": 50,
+      "lifetime": 80,
+      "homing": 0.2,
+      "incendAmount": 8,
+      "incendSpread": 7,
+      "hitEffect": "fireHit",
+      "despawnEffect": "fireHit",
+      "shootEffect": "none",
+      "smokeEffect": "fireSmoke",
+      "hitSound": "blockExplodeFlammable",
+      "despawnSound": "blockExplodeFlammable"
+    }
+      }
+  ]
+}

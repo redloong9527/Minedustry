@@ -1,0 +1,45 @@
+{
+  "type": "GenericCrafter",
+  "name": "Calcite Extractor",
+  "description": "Flushes Calcite out of the ground using water, some of which can be reused.",
+  "health": 750,
+  "size": 2,
+  "buildTime": 400,
+  "hasItems": true,
+  "hasPower": true,
+  "hasliquid": true,
+  "itemCapacity": 20,
+  "liquidCapacity": 50,
+  "category": "production",
+  "craftTime": 80,
+  "consumes": {
+    "liquids": ["water/0.3"],
+    "power": 2.2
+    },
+  "outputItems": ["minedustry-calcite/1"],
+  "outputLiquids": ["water/0.1"],
+  "requirements": ["copper/50", "lead/30", "silicon/15"],
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "drawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawRegion",
+        "suffix": "-rotator",
+        "spinSprite": true,
+        "rotateSpeed": 3,
+        "warmup": true
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  },
+  "research": {
+    "parent":"pneumatic-drill",
+    "requirements": ["silicon/150", "copper/300", "lead/250"]
+  }
+}

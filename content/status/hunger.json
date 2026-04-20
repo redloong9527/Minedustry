@@ -1,0 +1,10 @@
+{
+    "type": "StatusEffect",
+    "name": "Hunger",
+    "description": "Drains more energy making units less efficient and weaker.",
+    "affinities": [],
+    "opposites": ["minedustry-saturation"],
+    "damageMultiplier": 0.95,
+    "speedMultiplier": 0.85,
+    "reloadMultiplier": 0.85
+}

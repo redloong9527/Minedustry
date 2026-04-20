@@ -1,7 +1,7 @@
 {
     "type": "StatusEffect",
     "name": "Wither",
-    "description": "Damages affected units, deals more damage per second than posion.",
+    "description": "Deals damage over time, deals more damage per second than poison.",
     "intervalDamage": 10,
     "intervalDamageTime": 15,
     "affinities": ["poison", "corroded"]

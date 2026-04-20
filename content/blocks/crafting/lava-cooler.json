@@ -1,0 +1,45 @@
+{
+  "type": "GenericCrafter",
+  "name": "Lava Cooler",
+  "description": "Cools lava quickly to make obsidian.",
+  "health": 900,
+  "size": 2,
+  "buildTime": 500,
+  "hasItems": true,
+  "hasLiquid": true,
+  "hasPower": true,
+  "itemCapacity": 20,
+  "liquidCapacity": 30,
+  "category": "crafting",
+  "craftTime": 60,
+  "consumes": {
+    "liquids": ["minedustry-lava/0.2", "water/0.1"],
+    "power": 0.25
+    },
+  "outputItems": ["minedustry-obsidian-item/1"],
+  "requirements": ["copper/45", "titanium/30","graphite/25", "plastanium/15"],
+  "craftEffect": "steam",
+  "updateEffect": "none",
+  "updateEffectChance": 0.05,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "drawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "minedustry-lava",
+        "alpha": 1
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  },
+  "research": {
+    "parent":"plastanium-compressor",
+    "requirements": ["titanium/450", "silicon/240", "plastanium/240", "graphite/350"]
+  }
+}
